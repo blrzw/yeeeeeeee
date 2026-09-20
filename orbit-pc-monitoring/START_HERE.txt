@@ -1,0 +1,30 @@
+ORBIT PC MONITORING — VERY SIMPLE START GUIDE
+
+What you need first:
+1. A Windows PC.
+2. Node.js 22 or newer installed from https://nodejs.org/.
+
+How to start Orbit:
+1. Right-click the ZIP file and choose "Extract All".
+2. Open the extracted folder.
+3. Double-click START_ORBIT.bat.
+4. Wait. The first start may take a few minutes while Orbit installs its packages.
+5. A black command window will stay open. Do not close it.
+6. Open the web address printed in that black window. It usually starts with http://localhost:3000.
+
+How to stop Orbit:
+1. Close the black command window.
+
+How to use the Windows monitoring agent:
+1. In Orbit, open the Build tab.
+2. Click Download.
+3. Run the downloaded EXE only on an authorized company PC.
+4. Accept the employee-visible company monitoring notice on that PC.
+5. Return to the Client tab and click Refresh feed.
+
+Important:
+- Do not double-click client/index.html. Orbit needs its server to work.
+- The Client tab will only show PCs after the agent sends a heartbeat.
+- If the agent shows a connection problem, check the log at %TEMP%\\OrbitPCMonitor.log.
+- Screen sharing still requires the employee to approve the request on the PC.
+- Screen sharing requires explicit approval on the monitored PC.
